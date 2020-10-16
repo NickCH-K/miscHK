@@ -182,10 +182,10 @@
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
 <span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'1 2 3'</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='message'>c("1", "2", "3")</span></div><div class='output co'>#&gt; [1] "c(\"1\", \"2\", \"3\")"</div><div class='input'><span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'[1, 2, 3]'</span>, from <span class='op'>=</span> <span class='st'>'python'</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='error'>Error in UseMethod("type"): no applicable method for 'type' applied to an object of class "NULL"</span></div><div class='input'><span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'var1 var2 var3'</span>, from <span class='op'>=</span> <span class='st'>'stata'</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='message'>c(1, 2, 3)</span></div><div class='output co'>#&gt; [1] "c(1, 2, 3)"</div><div class='input'><span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'[1, 2, 3]'</span>, from <span class='op'>=</span> <span class='st'>'python'</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='message'>c(1, 2, 3)</span></div><div class='output co'>#&gt; [1] "c(1, 2, 3)"</div><div class='input'><span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'var1 var2 var3'</span>, from <span class='op'>=</span> <span class='st'>'stata'</span><span class='op'>)</span>
 </div><div class='output co'>#&gt; <span class='message'>c("var1", "var2", "var3")</span></div><div class='output co'>#&gt; [1] "c(\"var1\", \"var2\", \"var3\")"</div><div class='input'><span class='fu'>c_ify</span><span class='op'>(</span><span class='st'>'%%%a_b_c$$$'</span>, from_start <span class='op'>=</span> <span class='st'>'%%%'</span>, from_sep <span class='op'>=</span> <span class='st'>'_'</span>, from_end <span class='op'>=</span> <span class='st'>'$$$'</span>, string <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='message'>c("%%%a", "b", "c$$$")</span></div><div class='output co'>#&gt; [1] "c(\"%%%a\", \"b\", \"c$$$\")"</div><div class='input'>
+</div><div class='output co'>#&gt; <span class='message'>c("a", "b", "c")</span></div><div class='output co'>#&gt; [1] "c(\"a\", \"b\", \"c\")"</div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

@@ -23,7 +23,9 @@ Note two things: First, this will only populate options included in the explicit
 }
 \examples{
 
+if(interactive()) {
 # Note that some of the options here are actually ... and will not be brought to environment
 defaults2env(help, verbose = FALSE, clean.env = TRUE)
+}
 
 }

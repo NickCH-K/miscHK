@@ -100,6 +100,8 @@ Only works if both x and y axes are numeric.
 }
 \examples{
 
+library(ggplot2)
+
 ggplot(iris,
 aes(x = Sepal.Width, y = Sepal.Length)) +
   geom_point() +

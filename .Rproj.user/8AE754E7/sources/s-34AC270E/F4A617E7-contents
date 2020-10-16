@@ -1,0 +1,4 @@
+from_start = NULL; from_sep = NULL; from_end = NULL
+string = from %in% c('r_char', 'py_char', 'stata')
+to_start = NULL; to_sep = NULL; to_end = NULL;
+trim = TRUE; silent = FALSE
