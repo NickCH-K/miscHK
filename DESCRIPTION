@@ -1,0 +1,21 @@
+Package: miscHK
+Type: Package
+Title: A Package of Miscellaneous Functions by Nick HK
+Version: 0.1.0
+Authors@R: c(person(given = "Nick", family = "Huntington-Klein", role = c("aut","cre"), email = "nhuntington-klein@seattleu.edu"))
+Description: This package contains some miscellaneous functions written
+    by me, Nick Huntington-Klein. While there is no hard-and-fast theme,
+    these generally fill gaps that make R easier to use.
+    Notably, I am far more concerned with ease of use than with best
+    programming practices, and you may find that some of these functions
+    encourage laziness or some less-than-ideal practices. I do not have a problem with this. 
+    Begone, StackExchange.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    stringr,
+    ggplot2,
+    scales
